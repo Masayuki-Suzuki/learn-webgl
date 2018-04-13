@@ -1,3 +1,6 @@
-bs-config.js
+config/bs-config.js
 config/webpack.config.js
+package.json
+prettierrc
+babelrc
 www/**/*.*
