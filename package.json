@@ -5,15 +5,13 @@
   "author": "masayuki suzuki",
   "license": "MIT",
   "scripts": {
-    "imagemin": "imagemin assets/img/original/*.* --out-dir=./www/jobfind-pc/original/images/ --plugin=pngquant",
-    "themeImgMin": "imagemin -p pngquant assets/img/theme/*.* -o www/jobfind-pc/themes/default/images",
-    "watch-imagemin": "onchange 'assets/img/original/*' -- npm run imagemin",
+    "imagemin": "imagemin assets/img/*.* --out-dir=./www/dist/img/ --plugin=pngquant",
+    "watch-imagemin": "onchange 'assets/img/**/*' -- npm run imagemin",
     "dev": "webpack --config ./config/webpack.config.js --watch --progress",
     "server": "browser-sync start --config ./config/bs-config.js",
     "start": "npm-run-all -p dev watch-imagemin server",
     "build": "webpack --config ./config/webpack.config.js",
     "prod": "webpack --env.prod --config ./config/webpack.config.js",
-    "remover": "rm -rf www/jobfind-pc/original/js/original.js www/jobfind-pc/original/js/original.js.map www/jobfind-pc/original/js/topPage.js www/jobfind-pc/original/js/topPage.js.map www/jobfind-pc/original/js/normalize.js www/jobfind-pc/original/js/normalize.js.map www/jobfind-pc/original/js/vendor"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",
