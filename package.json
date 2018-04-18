@@ -11,7 +11,7 @@
     "server": "browser-sync start --config ./config/bs-config.js",
     "start": "npm-run-all -p dev watch-imagemin server",
     "build": "webpack --config ./config/webpack.config.js",
-    "prod": "webpack --env.prod --config ./config/webpack.config.js",
+    "prod": "webpack --env.prod --config ./config/webpack.config.js"
   },
   "devDependencies": {
     "autoprefixer": "^8.1.0",

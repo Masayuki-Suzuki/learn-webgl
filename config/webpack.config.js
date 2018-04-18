@@ -18,7 +18,7 @@ const assetPath = {
 }
 const entry = {
   [`${publicPath.jsMain}app.js`]: path.join(__dirname, `${assetPath.jsMain}app.js`),
-  [`${publicPath.cssMain}topPage.css`]: path.join(__dirname, `${assetPath.cssMain}style.scss`),
+  [`${publicPath.cssMain}style.css`]: path.join(__dirname, `${assetPath.cssMain}style.scss`),
   [`${publicPath.cssMain}vendor/normalize.css`]: path.join(__dirname, `${assetPath.cssMain}vendor/normalize.scss`),
 }
 
