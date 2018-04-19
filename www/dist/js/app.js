@@ -74,11 +74,11 @@ var _dom = __webpack_require__(1);
 
 var _dom2 = _interopRequireDefault(_dom);
 
-var _creater = __webpack_require__(4);
+var _creater = __webpack_require__(2);
 
 var _creater2 = _interopRequireDefault(_creater);
 
-var _minMatrix = __webpack_require__(5);
+var _minMatrix = __webpack_require__(3);
 
 var _minMatrix2 = _interopRequireDefault(_minMatrix);
 
@@ -139,9 +139,7 @@ exports.default = {
 };
 
 /***/ }),
-/* 2 */,
-/* 3 */,
-/* 4 */
+/* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -217,7 +215,7 @@ var Creater = function () {
 exports.default = Creater;
 
 /***/ }),
-/* 5 */
+/* 3 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
